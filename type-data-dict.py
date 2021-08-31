@@ -24,7 +24,7 @@ print(f"Driver #1 {data_dari_server_gojek['driver_list'][1]}")
 
 print('-'*10)
 print(f"Jarak Driver Terdekat {data_dari_server_gojek['driver_list'][1]['jarak']} meter")
-
+print('-'*10)
 for a in data_dari_server_gojek['driver_list']:
     if (a['jarak'] < 30):
         print(f"Driver {a['nama']} berjarak {a['jarak']} Meter")
