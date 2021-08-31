@@ -1,0 +1,2 @@
+# fundamental-phython
+latihan pyhton
